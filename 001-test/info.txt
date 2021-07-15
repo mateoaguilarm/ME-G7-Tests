@@ -3,3 +3,8 @@ test de react - primera clase G7
 Test de Componentes Tipo Clase
 
 Se continua dentro de 001-test clase de Componentes tipo Clase.
+
+Miercoles Julio 14
+
+    Practica con API de ciclos de vida en: 02-r-test
+
