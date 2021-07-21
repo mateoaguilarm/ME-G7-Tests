@@ -4,4 +4,8 @@ Julio 19, 2021
     
     Introducción Básica en 01-r-test
 
+Julio 20, 2021
+
+    Clase de componentes Funcionales más en practica
+
     

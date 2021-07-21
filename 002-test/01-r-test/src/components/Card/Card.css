@@ -1,0 +1,14 @@
+.funcCard {
+    margin: 15px;
+    width: 200px;
+    background-color: bisque;
+    box-shadow:5px 10px #888888;
+    border:1px solid;
+    text-align: left;
+}
+
+.pCard {
+    margin-left: 10px;
+    font-family: serif;
+    font-weight: 800;
+}
