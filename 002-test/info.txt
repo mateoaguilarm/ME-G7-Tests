@@ -6,6 +6,9 @@ Julio 19, 2021
 
 Julio 20, 2021
 
-    Clase de componentes Funcionales más en practica
+    Clase de componentes Funcionales más en practica (dentro de 01-r-test)
 
-    
+    En 02-r-test se replicará un template de html5up, pasandolo de HTML y CSS a React.
+    Su finalidad es comprender como una pagina web sencilla se puede dividir en distintas partes (Componentes)
+
+    https://html5up.net/telephasic
