@@ -12,3 +12,8 @@ Julio 20, 2021
     Su finalidad es comprender como una pagina web sencilla se puede dividir en distintas partes (Componentes)
 
     https://html5up.net/telephasic
+
+Julio 21, 2021
+
+    Clase de React Hooks (Intro a useState - useEffect) en 03-r-test
+
