@@ -1,6 +1,6 @@
 import React from 'react'
 
-function News() {
+function News(props) {
     return (
         <div>
             

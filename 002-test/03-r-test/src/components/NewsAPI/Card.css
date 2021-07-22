@@ -1,0 +1,36 @@
+.newsCard {
+    margin: 30px;
+    width: 300px;
+    background-color: beige;
+    border-radius: 20px;
+}
+
+.imgCard {
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.titleCard {
+    margin: 2px;
+    font-size: 25px;
+}
+
+.descCard {
+    padding: 0 20px;
+}
+
+.likeBtn {
+    margin-bottom: 20px;
+    padding: 2px 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 0;
+}
+
+.likeBtn:hover {
+    background-color: gray;
+    color: whitesmoke;
+    transition: .2s;
+}
