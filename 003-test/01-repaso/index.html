@@ -1,25 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <title>Radiohead Albums</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Greatest Albums</title>
 </head>
+
 <body>
 
-    <header>
-        <h1>Radiohead Albums</h1>
+    <header class="m-5 text-center">
+        <h1 class="">Greatest Albums</h1>
+        <p class="lead">Test page to practice old topics</p>
     </header>
-    <main>
+    <main class="m-5">
+        <form id="formAlbums">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Album's Name</label>
+                <input type="text" class="form-control" id="albumName" aria-describedby="">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Release Date</label>
+                <input type="number" class="form-control" id="releaseDate" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Number of songs in Album</label>
+                <input type="number" class="form-control" id="numberSongs" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Cover Image URL</label>
+                <input type="text" class="form-control" id="coverURL">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary mb-5">Añadir Album</button>
+        </form>
+
+        <p class="m-5 lead text-center"> The Greatest Albums </p>
+
+        <div id="albumCard" class="row row-cols1 row-cols-md-2 g-4 m-5">
+            <div class="col">
+                <div  class="card m-5" style="width: 18rem;">
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/A1MwaIeBpwL._SL1500_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center pb-4">Card title</h5>
+                        <p class="card-text lead"> Release Date </p>
+                        <p class="card-text lead"> Songs </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         
+
     </main>
     <footer>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 
     <script src="./app.js"></script>
 </body>
+
 </html>
