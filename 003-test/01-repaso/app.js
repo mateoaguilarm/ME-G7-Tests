@@ -3,6 +3,7 @@ console.log('hola en app');
 // 1. Bring the ID's from the HTML
 const formAlbums = document.querySelector('#formAlbums');
 const cardAlbums = document.querySelector('#albumCard');
+const infoCheck = document.querySelector('infoCheck')
 
 const API_URL = 'https://crudcrud.com/api/39bc61cdd1fa4061839d2dd5fff7f0c0/albums';
 
@@ -22,7 +23,7 @@ const getAlbums = async () => {
 
 const renderAlbums = (albums) => {
     return albums.map(album => {
-        const { albumName, year, songs, coverURL } = album;
+        const { albumName, artist, year, songs, coverURL } = album;
         const albumCardHTML =
             `<div id="albumCard" class="row row-cols1 row-cols-md-2 g-4 m-5">
         <div class="col">
@@ -30,6 +31,7 @@ const renderAlbums = (albums) => {
                 <img src=" ${coverURL} " class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title text-center pb-4">${albumName}</h5>
+                    <p class="card-text lead"> Artist: ${artist} </p>
                     <p class="card-text lead"> Release Date: ${year} </p>
                     <p class="card-text lead"> Songs: ${songs} </p>
                 </div>
@@ -41,3 +43,7 @@ const renderAlbums = (albums) => {
 }
 
 getAlbums()
+
+const init = async () => {
+    
+}
