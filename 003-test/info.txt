@@ -3,4 +3,11 @@ Agosto 05, 2021
     
     Clase extra de Repaso
 
-    
+Agosto 10, 2021
+    Test de React Bootstrap
+
+// Semana 2 de React intermedio
+
+Agosto 16, 2021
+
+    Deployment con React / Netlify
