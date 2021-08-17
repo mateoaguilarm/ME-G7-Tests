@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.bodyCard {
+    background-color: #fbfb62e8;
+    width: 300px;
+    height: 200px;
+    box-shadow:0 1px 6px rgba(0, 0, 0, 0.329), 0 2px 24px rgba(0, 0, 0, 0.466);
+    border:0;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.tCard {
+    text-align: right;
+    margin: 5px;
+}
+
+.descCard {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.btnsCard {
+    margin: 10px;
+    width: 35px;
+}
+
+span {
+    font-weight: bold;
+}
