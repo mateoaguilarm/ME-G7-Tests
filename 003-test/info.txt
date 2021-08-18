@@ -13,7 +13,7 @@ Agosto 16, 2021
     Deployment con React / Netlify
     ( 03-react-deployment ) 
 
-Agosto 17, 2021
+Agosto 18, 2021
 
     Test outClass.
     Test with branch.
