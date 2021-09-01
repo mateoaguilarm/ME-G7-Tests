@@ -3,3 +3,10 @@
     background-color: rgb(49, 145, 255);
 }
 
+.carouselImgs {
+    height: 800px;
+}
+
+.carouselTitle {
+    margin-bottom: 300px;
+}
