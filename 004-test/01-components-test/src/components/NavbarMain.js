@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { } from 'react'
+import { Link } from 'react-router-dom'
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
+// import '../index.css'
 
 function NavbarMain() {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar className='navBackround' bg="" variant="dark">
                 <Container>
                     <Navbar.Brand href="#home">Salud Aguilar</Navbar.Brand>
                     <Nav className="me-auto">
