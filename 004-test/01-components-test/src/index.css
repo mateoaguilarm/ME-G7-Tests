@@ -1,12 +1,48 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Nav */
 
 .navBackround {
-    background-color: rgb(49, 145, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.795);
+    position: fixed;
+    top: 0;
+    height: 70px;
+}
+
+/* Carousel */
+
+.carousel {
+    background-color: rgba(0, 0, 0, 0.596);
 }
 
 .carouselImgs {
-    height: 800px;
+    height: 700px;
 }
 
 .carouselTitle {
-    margin-bottom: 300px;
+    margin-bottom: 250px;
+    font-size: 300%;
+}
+
+/* Main */
+
+.mainCard {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.mainCard_style {
+    padding: 60px;
+    font-size: larger;
+    box-shadow:inset 0 0 10px 0 rgba(95, 71, 71, 0.35);
+    border:0;
 }

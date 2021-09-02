@@ -1,14 +1,29 @@
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-import CarouselPart from './components/CarouselPart';
-import NavbarMain from './components/NavbarMain';
+import Footer from './components/footer/Footer';
+import NavbarMain from "./components/NavbarMain";
+import Home from './views/Home'
+import Services from './views/Services'
 
 function App() {
   return (
-    <div className="App">
-      {/* <h1>Hola en App 💻</h1> */}
-      <NavbarMain />
-      <CarouselPart />
-    </div>
+    <Router>
+      <div className="App">
+        <NavbarMain />
+        <Switch>
+          <Route exact path='/' component={Home}/>
+          <Route path='/services' component={Services}/>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+
   );
 }
 
