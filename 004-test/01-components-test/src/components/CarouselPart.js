@@ -1,16 +1,19 @@
-import React from 'react'
-import { Carousel } from 'react-bootstrap'
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+
+import Img01 from '../images/Capa-1.png';
+import Img02 from '../images/Capa-2.png';
+import Img03 from '../images/Capa-3.png';
 
 function CarouselPart() {
 
-    const Img01 = 'https://images.unsplash.com/photo-1530210124550-912dc1381cb8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80'
-    const Img02 = 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80'
-    const Img03 = 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1789&q=80'
-
+    // const Img01 = '';
+    // const Img02 = '';
+    // const Img03 = '';
 
     return (
         <div>
-            <Carousel fade>
+            <Carousel fade class='carousel'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 carouselImgs"
@@ -18,7 +21,7 @@ function CarouselPart() {
                         alt="First slide"
                     />
                     <Carousel.Caption >
-                        <h1 class='carouselTitle'>Salud Aguilar</h1>
+                        <h1 class='carouselTitle'>Medical Center</h1>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -30,7 +33,7 @@ function CarouselPart() {
                     />
 
                     <Carousel.Caption >
-                        <h1 class='carouselTitle'>Salud Aguilar</h1>
+                        <h1 class='carouselTitle'>Medical Center</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -42,7 +45,7 @@ function CarouselPart() {
                     />
 
                     <Carousel.Caption >
-                        <h1 class='carouselTitle'>Salud Aguilar</h1>
+                        <h1 class='carouselTitle'>Medical Center</h1>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
