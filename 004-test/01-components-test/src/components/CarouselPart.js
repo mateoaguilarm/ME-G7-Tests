@@ -13,7 +13,7 @@ function CarouselPart() {
 
     return (
         <div>
-            <Carousel fade class='carousel'>
+            <Carousel fade className='carousel'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 carouselImgs"
@@ -21,7 +21,7 @@ function CarouselPart() {
                         alt="First slide"
                     />
                     <Carousel.Caption >
-                        <h1 class='carouselTitle'>Medical Center</h1>
+                        <h1 className='carouselTitle'>Medical Center</h1>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -33,7 +33,7 @@ function CarouselPart() {
                     />
 
                     <Carousel.Caption >
-                        <h1 class='carouselTitle'>Medical Center</h1>
+                        <h1 className='carouselTitle'>Medical Center</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -45,7 +45,7 @@ function CarouselPart() {
                     />
 
                     <Carousel.Caption >
-                        <h1 class='carouselTitle'>Medical Center</h1>
+                        <h1 className='carouselTitle'>Medical Center</h1>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
