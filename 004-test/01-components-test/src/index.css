@@ -46,3 +46,11 @@
     box-shadow:inset 0 0 10px 0 rgba(95, 71, 71, 0.35);
     border:0;
 }
+
+/* Sign Up Form */
+
+.signupForm {
+    margin: 60px;
+    padding: 100px 250px;
+    background-color: rgba(49, 49, 49, 0.034);
+}
