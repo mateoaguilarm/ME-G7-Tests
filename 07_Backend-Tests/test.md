@@ -4,6 +4,8 @@
 
 From 002, ReCap Backend Folders
 
-<h3>Nov 17, 2021</h3>
+<h3>Nov 18, 2021</h3>
     002-test (01_NodeJS-Server)
         ReCap 1st Backend Folder
+
+        Se sigue el patron de Notion.
