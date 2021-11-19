@@ -9,3 +9,10 @@ From 002, ReCap Backend Folders
         ReCap 1st Backend Folder
 
         Se sigue el patron de Notion.
+
+        steps commited
+            1 - 2 - 3
+
+<h3>Nov 19, 2021</h3>
+    002-test (01_NodeJS-Server)
+        Intro to retos.js
