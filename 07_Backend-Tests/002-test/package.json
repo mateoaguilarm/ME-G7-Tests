@@ -1,0 +1,16 @@
+{
+  "name": "based-on--01-nodejs-server",
+  "version": "1.0.0",
+  "description": "Intro to backend with NodeJS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "intro-backend"
+  ],
+  "author": "",
+  "license": "ISC"
+}
