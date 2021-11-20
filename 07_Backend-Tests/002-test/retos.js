@@ -20,6 +20,19 @@ const server = http.createServer((req, res) => {
         res.end('A Name on "/name"');
         console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
     }
+
+    else if (req.url === '/users') {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        
+        const users = [
+            { name: 'Hank', email: 'hank@test.com' },
+            { name: 'Walt', email: 'walter@test.com' },
+            { name: 'Ben', email: 'ben.oso@test.com' }
+        ];
+        res.end(JSON.stringify(users));
+        console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
+    }
 })
 
 // Server Listen (Para su apertura a requests)
