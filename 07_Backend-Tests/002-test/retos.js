@@ -1,3 +1,14 @@
+// RETOS
+
+// 1. Muestra un mensaje en la ruta exacta " / "
+//     a. Ej: Este es un mensaje desde la ruta " / "
+// 2. Muestra tu nombre en la ruta " /your-name "
+//     a. Ej: GET /nombre ⇒ Mi nombre es Nombre
+// 3. Muestra un objeto con users en la ruta " /users "
+//     a. Ej: GET /users ⇒ { user1: 'Petra', user2: 'Alexa', user3: 'Jack'}
+// 4. Muestra un error 404 en una ruta indefinida
+//     a. Ej: GET /dashboard ⇒ 404 Ruta No Encontrada :(
+
 // Se inicializa con:
 const http = require('http');
 
@@ -14,6 +25,7 @@ const server = http.createServer((req, res) => {
         console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
     }
 
+    // Reto02 - Iniciacion tipica, añadiendose la ruta, tipo de contenido y mensaje
     else if (req.url === '/name') {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/plain');
@@ -21,6 +33,7 @@ const server = http.createServer((req, res) => {
         console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
     }
 
+    // Reto03 - Inicia con contenido JSON por la respuesta que arrojará y añadiendo un arreglo de ejemplo.
     else if (req.url === '/users') {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/json');
@@ -34,6 +47,7 @@ const server = http.createServer((req, res) => {
         console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
     }
 
+    // Reto04 - Inicia, recalca su statusCode, y con el "else" arrojando una respuesta para cualquier ruta no registrada.
     else {
         res.statusCode = 404;
         res.setHeader('Content-Type', 'text/plain');
