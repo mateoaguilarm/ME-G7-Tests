@@ -33,6 +33,13 @@ const server = http.createServer((req, res) => {
         res.end(JSON.stringify(users));
         console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
     }
+
+    else {
+        res.statusCode = 404;
+        res.setHeader('Content-Type', 'text/plain');
+        res.end('URL not found - 404 Error');
+        console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
+    }
 })
 
 // Server Listen (Para su apertura a requests)
