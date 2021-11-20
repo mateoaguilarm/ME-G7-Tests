@@ -16,3 +16,7 @@ From 002, ReCap Backend Folders
 <h3>Nov 19, 2021</h3>
     002-test (01_NodeJS-Server)
         Intro to retos.js
+
+<h3>Nov 20, 2021</h3>
+    002-test (01_NodeJS-Server)
+        Orden en codigo de retos.js
