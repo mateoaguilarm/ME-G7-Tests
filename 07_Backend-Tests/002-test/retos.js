@@ -13,6 +13,13 @@ const server = http.createServer((req, res) => {
         res.end('Message from "/"');
         console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
     }
+
+    else if (req.url === '/name') {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/plain');
+        res.end('A Name on "/name"');
+        console.log(`The Request comes from ${req.url}, and the method is ${req.method}`);
+    }
 })
 
 // Server Listen (Para su apertura a requests)
