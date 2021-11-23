@@ -20,3 +20,6 @@ From 002, ReCap Backend Folders
 <h3>Nov 20, 2021</h3>
     002-test (01_NodeJS-Server)
         Orden en codigo de retos.js
+
+<h3>Nov 23, 2021</h3>
+    Re Name .md file test.md to infoTests.md
