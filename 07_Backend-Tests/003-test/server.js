@@ -20,3 +20,7 @@ app.use(express.urlencoded({ extended: true })); // Allows the format applicatio
 app.get('/', (req, res) => {
     res.send('Hello World!');
 })
+
+// LISTENER
+    // Its listening to future requests
+app.listen(port, (req, res) => {console.log(`example listening on http://localhost:${port}`);})
