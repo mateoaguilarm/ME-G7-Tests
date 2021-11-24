@@ -26,3 +26,10 @@ From 002, ReCap Backend Folders
 
     003-test (02_Intro-Express)
         npm init -y on Folder
+
+<h3>Nov 24, 2021</h3>
+    003-test (02_Intro-Express)
+        - Config on package.json
+        - installing express
+        - creating server.js
+            inside this one, we made a basic server based on expressJS
