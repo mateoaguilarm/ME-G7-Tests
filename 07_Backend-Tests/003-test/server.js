@@ -13,3 +13,10 @@ const port = 3000;
 
 app.use(express.json()); // This middleware allows the .json files on server.
 app.use(express.urlencoded({ extended: true })); // Allows the format application/x-www-form-urlencoded (docs, media, etc)
+
+// ENDPOINTS
+    // This 3rd step sets the routes (there are different types of endpoints)
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+})
